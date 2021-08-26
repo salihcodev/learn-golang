@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-// nested struct || imbedded struct
+// nested struct || Embedded struct
 type shapeProps struct {
 	x int
 	y int
 }
 
-// struct is a way to descripe the data and data types.
+// struct is a way to describe the data and data types.
 type shape struct {
 	boldBorders bool
 	area        int
